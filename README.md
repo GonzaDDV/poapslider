@@ -1,4 +1,4 @@
-# POAPSlider
+# [POAPSlider](https://poapslider.com)
 
 ## What is POAPSlider?
 
