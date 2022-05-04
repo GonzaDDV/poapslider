@@ -1,0 +1,19 @@
+.swiper {
+	width: clamp(150px, 90vw, 400px);
+	height: clamp(150px, 70vh, 520px);
+}
+
+.swiperSlide {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 18px;
+	background-color: #202020;
+	color: #fff;
+	padding: 2vmin;
+	text-align: center;
+}
+
+.poapImage {
+	border-radius: 50%;
+}

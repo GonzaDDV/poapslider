@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@metamask/providers": "^8.1.1",
+    "axios": "^0.27.2",
+    "moment": "^2.29.3",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-icons": "^4.3.1",
+    "swiper": "^8.1.4"
   },
   "devDependencies": {
     "@types/node": "17.0.31",
@@ -19,6 +24,7 @@
     "@types/react-dom": "18.0.3",
     "eslint": "8.14.0",
     "eslint-config-next": "12.1.6",
+    "sass": "^1.51.0",
     "typescript": "4.6.4"
   }
 }

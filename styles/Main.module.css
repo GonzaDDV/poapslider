@@ -1,0 +1,106 @@
+.mainContainer {
+	min-height: 100vh;
+	min-width: 95vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 3vh;
+}
+
+.titleContainer {
+	text-align: center;
+}
+
+.title {
+	font-size: clamp(2.5rem, 1.5vmax, 4rem);
+	text-align: center;
+	margin: 0;
+}
+
+.subtitle {
+	font-size: clamp(1rem, 1vmax, 1.8rem);
+	color: #d4d4d4;
+	font-weight: 400;
+	margin: 0;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1vw;
+	margin: 2vh 0 0 0;
+}
+
+.icons > * {
+	padding: 0.4rem;
+	background: #202020;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.metamaskButton {
+	font-size: clamp(1.5rem, 1vmax, 2rem);
+	padding: 0.7rem 1.6rem;
+	border-radius: 0.5rem;
+
+	background-color: #202020;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+
+	gap: 1vmin;
+}
+
+.input {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.5rem;
+	height: 60px;
+	gap: 10px;
+}
+
+.inputField {
+	font-size: clamp(1.5rem, 1vmax, 2rem);
+	height: 100%;
+	padding: 0.5rem;
+	border: none;
+	width: clamp(150px, 90vw, 600px);
+	border-radius: inherit;
+	padding: 1rem;
+	background: transparent;
+	outline: none;
+	background-color: #0e0e0e;
+}
+
+.inputButton {
+	background-color: #fa821c;
+	cursor: pointer;
+	height: 100%;
+	width: 60px;
+	border-radius: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@keyframes spinAnimation {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.loadingIcon {
+	animation: spinAnimation 1s linear infinite;
+}
