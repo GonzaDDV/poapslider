@@ -1,6 +1,6 @@
-# POAPs slider
+# POAPSlider
 
-## What is POAPs slider?
+## What is POAPSlider?
 
 This is an application (initially) created to display the POAPs of an address, in a cool-looking way. Built with Next.js and TypeScript.
 
@@ -29,3 +29,5 @@ and more...
 - [React Icons](https://react-icons.github.io/)
 - [Swiper](https://swiperjs.com/)
 - [TypeScript](https://www.typescriptlang.org/)
+
+I would like to thank POAP for giving me access to their API.
