@@ -16,6 +16,8 @@ Just open the application and enter the address you want to display the POAPs of
 - [x] Input field to enter an address
 - [ ] POAP Details screen
 - [ ] Error handling
+- [ ] SEO and OpenGraph
+- [ ] Display address on URL
 
 and more...
 
