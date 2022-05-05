@@ -46,7 +46,14 @@ const Home: NextPage = () => {
 		<div className={styles.mainContainer}>
 			<div className={styles.titleContainer}>
 				<div className={styles.logoContainer}>
-					<Image className={styles.logo} src='/assets/logo.png' alt='POAPSlider Logo' width='120' height='120' />
+					<Image
+						className={styles.logo}
+						src='/assets/logo.png'
+						alt='POAPSlider Logo'
+						width='120'
+						height='120'
+						quality='100'
+					/>
 				</div>
 				<h1 className={styles.title}>POAPSlider</h1>
 				<h5 className={styles.subtitle}>by @gonzaddv</h5>
