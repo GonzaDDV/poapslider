@@ -12,14 +12,17 @@ interface Props {
 }
 
 const AddressInputComponent: NextPage<Props> = ({ searchFunction, isLoading, address, setAddress }) => {
-	const handleFinish = async () => searchFunction(address);
+	const handleFinish = async (e: React.FormEvent) => {
+		e.preventDefault();
+		searchFunction(address);
+	};
 
 	const handleInput = (e: React.ChangeEvent<HTMLInputElement>) => {
 		setAddress(e.target.value);
 	};
 
 	return (
-		<div className={styles.input}>
+		<form onSubmit={handleFinish} className={styles.input}>
 			<input
 				className={styles.inputField}
 				type='text'
@@ -27,10 +30,10 @@ const AddressInputComponent: NextPage<Props> = ({ searchFunction, isLoading, add
 				value={address}
 				onChange={handleInput}
 			/>
-			<div className={styles.inputButton} onClick={handleFinish}>
+			<button className={styles.inputButton} type='submit'>
 				{isLoading ? <BiLoaderAlt className={styles.loadingIcon} size={32} /> : <BiSearchAlt2 size={32} />}
-			</div>
-		</div>
+			</button>
+		</form>
 	);
 };
 
