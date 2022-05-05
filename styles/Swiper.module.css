@@ -1,5 +1,6 @@
 .swiper {
-	width: clamp(150px, 90vw, 400px);
+	margin: 2vh 0 0 0;
+	width: clamp(150px, 70vw, 400px);
 	height: clamp(150px, 70vh, 520px);
 }
 
